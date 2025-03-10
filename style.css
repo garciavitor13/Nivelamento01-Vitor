@@ -1,0 +1,113 @@
+#home {
+  background: url(imagens/slide1.jpg);
+  height: 800px;
+  background-attachment: fixed;
+}
+
+.text-slide {
+  height: 800px;
+  width: 1920px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+
+.text-slide h2 {
+  font-size: 100px;
+  text-transform: uppercase;
+  margin-bottom: 25px !important;
+  font-weight: 900;
+  margin-top: 15px;
+}
+
+.text-slide p {
+  font-size: 38px;
+  margin-top: -30px;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+body{
+  margin: 0px !important;
+}
+
+a.btn-geral {
+    padding: 10px 20px;
+    background: darkolivegreen;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: all .5s;
+    font-weight: 600;
+}
+
+a.btn-geral:hover {
+    scale: 1.1;
+    background: darkseagreen;
+    transform: translateY(-5px);
+}
+
+section#quemSomos .container {
+  display: flex;
+  justify-content: center;
+  padding: 100px 280px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.left-side, .right-side {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+img.empresa-img {
+  width: 500px;
+  border-radius: 300px 40px;
+  margin-left: 50px;
+  transition: all .5s;
+}
+
+.right-side::before {
+    content: " ";
+    border-radius: 300px 40px;
+    margin-left: 50px;
+    background: darkseagreen;
+    position: absolute;
+    padding: 50px 250px;
+    z-index: -1 !important;
+    height: 500px;
+}
+
+img.empresa-img:hover {transform: translateX(50px);}
+
+.title-empresa h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 0 0px 20px 0;
+}
+
+.line {
+    width: 100px;
+    height: 10px;
+    background: darkseagreen;
+}
+
+.left-side p {
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+.btn-empresa {
+    width: max-content;
+}
+
+ul.container-nav {
+    width: max-content;
+    background-color: white;
+}
