@@ -6,13 +6,12 @@
 
 .text-slide {
   height: 800px;
-  /* width: 1920px; */
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
   justify-content: center;
-  text-align: center;
 }
 
 .text-slide h2 {
