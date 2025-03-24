@@ -68,7 +68,7 @@ section#quemSomos .container {
 
 img.empresa-img {
   width: 500px;
-  border-radius: 300px 40px;
+  border-radius: 160px 40px;
   margin-left: 50px;
   transition: all .5s;
 }
